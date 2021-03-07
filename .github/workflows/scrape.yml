@@ -1,7 +1,7 @@
 
 on:
   schedule:
-    - cron:  '55 * * * *' # Every hour. Ref https://crontab.guru/examples.html
+    - cron:  '40 * * * *' # Every hour. Ref https://crontab.guru/examples.html
 name: Scrape Data2
 jobs:
   build:
