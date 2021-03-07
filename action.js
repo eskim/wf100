@@ -6,7 +6,6 @@ const dayjs = require('dayjs');
 
 (async () => {
   let codes = (await fs.readFile("./codes.lst")).toString().split(/\n/);
-  codes = codes.slice(0, 10)
   let ymd = dayjs().format('YYYYMMDD')
   // console.log(codes)
 
