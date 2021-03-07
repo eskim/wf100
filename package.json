@@ -1,0 +1,25 @@
+{
+  "name": "wf100",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "action": "node ./action.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eskim/wf100.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eskim/wf100/issues"
+  },
+  "homepage": "https://github.com/eskim/wf100#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dayjs": "^1.10.4",
+    "fs-extra": "^9.1.0"
+  }
+}
